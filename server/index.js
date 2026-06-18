@@ -22,8 +22,9 @@ const app = express()
 // }))
 app.use(cors({
     origin: [
-        "https://mock-interview-puce.vercel.app/",
+        "https://mock-interview-puce.vercel.app",
         "https://three-interviewiq-pxf9.onrender.com",
+        "https://ai-mock-interview-jtg7.onrender.com",
         "http://localhost:5173",
         "http://localhost:5174",
         "http://localhost:5175",
