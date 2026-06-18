@@ -10,8 +10,19 @@ import interviewRouter from "./routes/interview.route.js"
 // import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
+// app.use(cors({
+//     origin: [
+//         "https://three-interviewiq-pxf9.onrender.com",
+//         "http://localhost:5173",
+//         "http://localhost:5174",
+//         "http://localhost:5175",
+//         "http://localhost:3000"
+//     ],
+//     credentials: true
+// }))
 app.use(cors({
     origin: [
+        "https://mock-interview-git-main-pragatiprince2606-8597s-projects.vercel.app",
         "https://three-interviewiq-pxf9.onrender.com",
         "http://localhost:5173",
         "http://localhost:5174",
